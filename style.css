@@ -11,6 +11,7 @@
     cursor: pointer;
     justify-content: center;
     padding-top: 1rem;
+    background: url("img/felt.jpg");
   }
   
   .deck {
@@ -24,14 +25,21 @@
     border-radius: .5rem;
     color: white;
     user-select: none;
+    text-shadow: 1px 1px 2px gold;
   }
   
   .computer-deck {
-    background-color: green;
+    background:url("img/red.jpeg") ;
+    background-size: cover;
+   
   }
   
   .player-deck {
-    background-color: blue;
+    /* background-color: blue; */
+    background: url("img/black.png");
+    background-size: cover;
+    
+   
   }
   
   .text {
@@ -39,6 +47,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: ghostwhite;
   }
   
   .card {
@@ -51,6 +60,7 @@
     justify-content: center;
     align-items: center;
     font-size: 4rem;
+    background-color: ghostwhite;
   }
   
   .card.red {
@@ -78,3 +88,4 @@
     right: .5rem;
     transform: rotate(180deg);
   }
+  
